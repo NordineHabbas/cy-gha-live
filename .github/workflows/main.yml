@@ -43,3 +43,16 @@ jobs:
         with:
           name: test-results
           path: "cypress/results"
+  go-release:
+    runs-on: ubunto-latest
+    needs: test
+    steps:
+      - name: launch release
+        run: echo "launch release"
+  notify-failure:
+    runs-on: ubunto-latest
+    needs: test
+    if: failure()
+    steps:
+      - name: notify failure
+        run: echo "notify failure"
