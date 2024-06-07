@@ -4,8 +4,8 @@
   "description": "E2E training",
   "main": "index.html",
   "scripts": {
-    "cy:local:open": "cypress open --e2e --browser chrome --config baseUrl=http://127.0.0.1:8080/",
-    "cy:local:run": "cypress run --e2e --browser chrome --config baseUrl=http://127.0.0.1:8080/"
+    "cy:local:open": "cypress open --e2e --browser firefox --config baseUrl=http://127.0.0.1:8080/",
+    "cy:local:run": "cypress run --e2e --browser firefox --config baseUrl=http://127.0.0.1:8080/"
   },
   "author": "Sylvain Viole",
   "license": "MIT",
