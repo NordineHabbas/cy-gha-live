@@ -5,8 +5,7 @@
   "main": "index.html",
   "scripts": {
     "cy:local:open": "cypress open --e2e --browser chrome --config baseUrl=http://127.0.0.1:8080/",
-    "cy:local:run": "cypress run --e2e --browser chrome --config baseUrl=http://127.0.0.1:8080/",
-    "cy:ci:run": "cypress run --e2e --browser chrome --config baseUrl=https://NordineHabbas.github.io/cy-gha-live/"
+    "cy:local:run": "cypress run --e2e --browser chrome --config baseUrl=http://127.0.0.1:8080/"
   },
   "author": "Sylvain Viole",
   "license": "MIT",
